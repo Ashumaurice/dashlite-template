@@ -16,7 +16,6 @@ ReactDOM.render(
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<ContactForm />} />
-          <Route path="/save" element={<Save />} />
           
         </Routes>
       </BrowserRouter>,
