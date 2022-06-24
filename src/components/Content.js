@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 const Content = () => {
 
     const [currencies, ] = useState([
-        { currencyImage: "./images/dai.svg", currencyName: 'DAI', product: 'Instant Access', apy: 6.43, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 DAI', id: 1 },
-        { currencyImage: "./images/busd.svg", currencyName: 'BUSD', provider: 'Aave', apy: 1.77, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 BUSD', id: 2 },
-        { currencyImage: "./images/usdc.svg", currencyName: 'USDC', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 USDC', id: 3 },
-        { currencyImage: "./images/usdt.svg", currencyName: 'USDT', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 USDT', id: 4 },
-        { currencyImage: "./images/feiUSD.svg", currencyName: 'FEI', provider: 'Compound', apy: 0, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 FEI', id: 5 },
-        { currencyImage: "./images/paxDollar.png", currencyName: 'USDP', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 USDP', id: 6 },
-        { currencyImage: "./images/terraUSD.png", currencyName: 'UST', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 UST', id: 7 }
+        { currencyImage: "./images/dai.svg", currencyName: 'DAI', product: 'Instant Access', apy: '$10', interestType: 'Variable', term: '$100', minimumDeposit: '100 DAI', id: 1 },
+        // { currencyImage: "./images/busd.svg", currencyName: 'BUSD', provider: 'Aave', apy: 1.77, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 BUSD', id: 2 },
+        { currencyImage: "./images/usdc.svg", currencyName: 'USDC', product: 'Instant Access', apy: '$10', interestType: 'Variable', term: '$100', minimumDeposit: '100 USDC', id: 3 },
+        { currencyImage: "./images/usdt.svg", currencyName: 'USDT', product: 'Instant Access', apy: '$10', interestType: 'Variable', term: '$100', minimumDeposit: '100 USDT', id: 4 },
+        // { currencyImage: "./images/feiUSD.svg", currencyName: 'FEI', provider: 'Compound', apy: 0, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 FEI', id: 5 },
+        // { currencyImage: "./images/paxDollar.png", currencyName: 'USDP', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 USDP', id: 6 },
+        // { currencyImage: "./images/terraUSD.png", currencyName: 'UST', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 UST', id: 7 }
     ]);
 
     return (
@@ -20,8 +20,8 @@ const Content = () => {
                         <div className="nk-block-head nk-block-head-sm">
                             <div className="nk-block-between">
                                 <div className="nk-block-head-content">
-                                    <h3 className="fs-18px">Earn and Impact</h3>
-                                    <p className="nk-block-title">Earn interest and climate rewards by deposit your assets.</p><br />
+                                    <h3 className="fs-18px">Pay bills or anyone in Cameroon with crypto</h3>
+                                    <p className="nk-block-title">Easily pay your bills, transfer money to friends, and shop online with USDT, USDC or DAI.</p><br />
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@ const Content = () => {
                                                     <span className="tb-lead">{currency.term}</span>
                                                 </div>
                                                 <div className="nk-tb-col">
-                                                    <span className="tb-sub">N/A</span>
+                                                    <span className="tb-sub">0 - 2%</span>
                                                 </div>
                                                 <div className="nk-tb-col">
                                                     <a href="https://forms.gle/ZSzoaCz3w9X1zKuz9"
