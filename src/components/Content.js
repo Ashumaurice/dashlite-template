@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Content = () => {
 
-    const [currencies, setCurrencies] = useState([
+    const [currencies, ] = useState([
         { currencyImage: "./images/dai.svg", currencyName: 'DAI', product: 'Instant Access', apy: 6.43, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 DAI', id: 1 },
         { currencyImage: "./images/busd.svg", currencyName: 'BUSD', provider: 'Aave', apy: 1.77, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 BUSD', id: 2 },
         { currencyImage: "./images/usdc.svg", currencyName: 'USDC', product: 'Instant Access', apy: 7.99, interestType: 'Variable', term: 'Flexible', minimumDeposit: '100 USDC', id: 3 },
